@@ -9,7 +9,8 @@
   "permissions": [
   "activeTab",
   "tabs",
-  "scripting"
+  "scripting",
+  "storage"
 ],
   "host_permissions": ["https://leetcode.com/*"],
   "content_scripts": [
