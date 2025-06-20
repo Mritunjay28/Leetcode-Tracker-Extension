@@ -1,8 +1,10 @@
-# 📘 Leetcode Tracker Chrome Extension
+## 📘 Leetcode Tracker Chrome Extension
 A minimalistic and powerful Chrome Extension to help you track, review, and master LeetCode problems using Spaced Repetition.
 
+**Important Info** No backend or database needed — all your progress is saved locally in your browser.
 
-🚀 Features:
+
+# 🚀 Features:
 
 🔗 Add LeetCode problem with title, link, topic, difficulty, and your own approach
 
@@ -20,16 +22,18 @@ A minimalistic and powerful Chrome Extension to help you track, review, and mast
 
 💾 Uses localStorage, works fully offline
 
-No backend or database needed — all your progress is saved locally in your browser.
+⚠️ `⚡ Auto-fill problem title and link directly from LeetCode tab`
 
 Whether you're prepping for interviews or mastering DSA, this extension ensures you never forget what you've learned.
 
-
-🧩 How to Use (for Users):-
+---
+# 🧩 How to Use (for Users):-
 
 💡 Make sure you're using Google Chrome or any Chromium-based browser (like Brave, Edge).
 
-📥 Installation:-
+---
+
+# 📥 Installation:-
 1. Download the extension as a .zip or clone this repository:
       
       git clone https://github.com/Mritunjay28/Leetcode-Tracker-Extension.git
@@ -41,8 +45,9 @@ Whether you're prepping for interviews or mastering DSA, this extension ensures 
 4. Click “Load Unpacked”, and select the folder containing this extension (e.g., Leetcode-Tracker-Extension).
 
 5. Pin 📌 the extension to your Chrome toolbar.
+---
 
-💡 How to Use:-
+# 💡 How to Use:-
 
 1. Open any LeetCode problem page.
 
@@ -68,6 +73,7 @@ Use the tabs to:
 
  📤 Export → Download your full list as a .csv
 
- 👤 Author:
-    Developed with 💻 and ☕ by @Mritunjay28
+ ## 👤 Author:
+    
+   **Important Info** Developed with 💻 and ☕ by  @Mritunjay28
 
