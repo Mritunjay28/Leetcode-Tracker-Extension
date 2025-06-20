@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Tracker",
+  "version": "1.0",
+  "description": "Track your LeetCode problems with SRS",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  "activeTab",
+  "tabs",
+  "scripting"
+],
+  "host_permissions": ["https://leetcode.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

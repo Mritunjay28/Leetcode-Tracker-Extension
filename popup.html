@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧠 LeetCode Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <h1>🧠 LeetCode Tracker</h1>
+
+        <form id="problemForm">
+            <input id="title" placeholder="Problem Title" required />
+            <input id="link" placeholder="LeetCode Link" required />
+            <input id="topic" placeholder="Topic" />
+            <select id="difficulty">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+            <textarea id="approach" placeholder="Your Approach"></textarea>
+            <button type="submit">➕ Add Problem</button>
+        </form>
+
+        <div class="tabs">
+            <button id="viewToday">📅 Today</button>
+            <button id="viewAll">📋 All</button>
+            <button id="viewLearned">🎓 Learned</button>
+
+            <button id="exportCSV">📤 Export</button>
+        </div>
+        <div id="problemList"></div>
+
+
+        <p id="message" class="fade-out"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

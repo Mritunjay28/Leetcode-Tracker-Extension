@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #2c003e, #12002f);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  min-width: 500px;
+  max-width: 650px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #f0b3ff;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+button {
+  background-color: #a64bf4;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  margin: 6px 4px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #bb66ff;
+  transform: translateY(-2px);
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message {
+  background-color: #4caf50;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+#app {
+  width: 500px; /* wider container */
+}
+
+.problem-card {
+  background: #2b0a3d;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid #8e44ad;
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.problem-buttons {
+  margin-top: 8px;
+}
+
+.problem-buttons button {
+  margin: 3px;
+  background-color: #9b59b6;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.problem-buttons button:hover {
+  background-color: #be70d4;
+}
+
+
+
+
